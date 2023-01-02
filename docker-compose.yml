@@ -1,6 +1,7 @@
 version: "3"
 services:
   fipe:
+    build: .
     image: fipe-image:latest
     expose:
       - 3000
