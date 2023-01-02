@@ -9,6 +9,8 @@ RUN yarn
 COPY src ./src
 COPY tsconfig.json .
 
+RUN yarn build
+
 
 #FROM node:16-alpine3.14
 FROM node
